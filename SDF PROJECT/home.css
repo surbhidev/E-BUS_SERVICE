@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+#homesection{
+    background-image: url(IITHT.jpeg);
+     margin: 0;
+    padding:12px 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+   
+    
+  
+  }
+#homesection h1{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    color:crimson;
+    border: 2px solid whitesmoke;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    font-family: 'Montserrat',sans-serif;
+}
+#homesection h2{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: crimson;
+    border: 2px solid white;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    font-family: 'Montserrat',sans-serif;
+}
+#homesection{
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+      }
+      
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+}
+
+   #homesection p{
+        border: 2px solid whitesmoke;
+        border-radius: 8px;
+        padding: 5px;
+        color:white;
+        font-family: 'Montserrat',sans-serif;
+        
+        margin: 5%;
+  
+      }
+      div.transbox {
+        margin: 30px;
+        background-color: black;
+        border: 1px solid whitesmoke;
+        opacity: 0.6;
+      }
+     
